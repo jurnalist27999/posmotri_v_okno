@@ -131,7 +131,7 @@ ol {
   border: 1px solid #FFF;
 }
 
-.search-form__checkbox[type='checkbox']:checked:focus + .search-form__pseudo-checkbox::before {
+.search-form__checkbox[type='checkbox']:checked + .search-form__pseudo-checkbox::before {
   content:'';
   display: block;
   width: 15px;
@@ -220,12 +220,11 @@ ol {
   margin: 2px;
 }
 
-.content__card-link_current:first-child:active {
+.content__card-link_current {
   background-color: #545050;
-} 
+}
 
-.content__card-link_current:focus {
-  background-color: #545050;
+.content__card-link:focus {
   border: 1px solid #FFF;
 }
 
